@@ -1,0 +1,15 @@
+name: gpu
+channels:
+- defaults
+dependencies:
+- keras-gpu
+- netcdf4
+- pandas
+- scikit-learn
+- pip:
+  - neptune-contrib
+  - sacred
+  - scikit-datasets
+  - scikit-keras
+  - scikit-optimize
+

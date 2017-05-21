@@ -1,0 +1,15 @@
+name: cpu
+channels:
+- defaults
+dependencies:
+- keras
+- netcdf4
+- pandas
+- scikit-learn
+- pip:
+  - neptune-contrib
+  - sacred
+  - scikit-datasets
+  - scikit-keras
+  - scikit-optimize
+

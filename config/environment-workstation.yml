@@ -1,0 +1,34 @@
+name: workstation
+channels:
+- defaults
+dependencies:
+- autopep8
+- coverage
+- dnspython
+- git
+- gitpython
+- graphviz
+- jupyter
+- keras
+- nb_conda
+- netcdf4
+- nodejs
+- nose
+- pandas
+- pep8
+- pydot
+- pylint
+- pymongo
+- scikit-learn
+- seaborn
+- sphinx
+- statsmodels
+- twine
+- pip:
+  - neptune-contrib
+  - recommonmark
+  - sacred
+  - scikit-datasets
+  - scikit-keras
+  - scikit-optimize
+  - sphinxcontrib-napoleon
