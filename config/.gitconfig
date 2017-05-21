@@ -1,0 +1,29 @@
+[alias]
+    hist = log --graph --oneline --decorate
+    st = status
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    pager = true
+    status = auto
+    ui = auto
+[core]
+    autocrlf = false
+    editor = vim
+    excludesfile = ~/.gitignore_global
+    pager = less
+[filter "lfs"]
+    required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+[merge]
+    tool = vimdiff
+[push]
+    default = matching
+[user]
+    name = daviddiazvico
+    email = david.diaz.vico@outlook.com
+[init]
+    defaultBranch = master
